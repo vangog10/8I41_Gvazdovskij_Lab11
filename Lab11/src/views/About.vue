@@ -1,2 +1,5 @@
-<script setup lang="ts"></script>
-<template>About</template>
+<template>
+    <div class="text-[128px] font-extrabold text-slate-900">
+        О НАС
+    </div>
+</template>

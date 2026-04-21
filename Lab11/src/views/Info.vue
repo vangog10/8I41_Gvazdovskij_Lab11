@@ -1,1 +1,5 @@
-<template>Главная</template>
+<template>
+    <div class="text-[128px] font-extrabold text-slate-900">
+        ГЛАВНАЯ
+    </div>
+</template>
