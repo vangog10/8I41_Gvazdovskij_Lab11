@@ -3,6 +3,7 @@ import AuthView from "./views/AuthView.vue";
 import MainView from "./views/MainView.vue";
 import Contact from "./views/Contact.vue";
 import About from "./views/About.vue";
+import Info from "./views/Info.vue";
 
 
 export const router = createRouter({
@@ -16,7 +17,11 @@ export const router = createRouter({
             component: MainView,
             children: [
                 {
-                    path: "contact",
+                    path: "",
+                    component: Info
+                },
+                {
+                    path: "support",
                     component: Contact
                 },
                 {
